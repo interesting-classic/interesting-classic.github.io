@@ -302,3 +302,68 @@ header {
         border-top-color: rgba(255, 255, 255, 0.15);
     }
 }
+
+@media (max-width: 800px) {
+    body {
+        padding: 24px 16px;
+    }
+
+    .comic-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px;
+    }
+
+    .comic-cover {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 11 / 8;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .comic-info {
+        width: 100%;
+    }
+
+    .comic-title {
+        font-size: 28px;
+    }
+
+    .comic-detail-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .detail-cover {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        aspect-ratio: 11 / 8 ;
+    }
+
+    .detail-title {
+        font-size: 32px;
+        text-align: left;
+    }
+
+    .detail-description {
+        font-size: 17px;
+    }
+
+    .download-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .detail-description,
+    .detail-author {
+        text-align: left;
+        width: 100%;
+    }
+
+    .back-link {
+        display: none;
+    }
+}
