@@ -340,7 +340,7 @@ header {
     }
 
     .detail-description {
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .download-btn {
@@ -349,7 +349,7 @@ header {
     }
 
     .detail-description,
-    .detail-author {
+    .details {
         text-align: left;
         width: 100%;
     }
