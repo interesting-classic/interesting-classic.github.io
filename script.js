@@ -36,7 +36,12 @@ async function renderComicPage() {
                 <img src="${comic.cover}" alt="${comic.title}" class="detail-cover">
                 <div>
                     <h1 class="detail-title">${comic.title}</h1>
-                    <div class="detail-author">Автор: ${comic.author}</div>
+                    <div class="details">
+                        Автор: ${comic.author}<br>
+                        Сценарий: ${comic.writers}<br>
+                        Дизайн: ${comic.design}<br>
+                        Год издания: ${comic.year}
+                    </div>
                     <p class="detail-description">${comic.description}</p>
                     <a href="${comic.pdf}" class="download-btn" download>Скачать PDF</a>
                 </div>

@@ -168,7 +168,7 @@ header {
 }
 
 .detail-description {
-    font-size: 18px;
+    font-size: 20px;
     color: var(--text-secondary);
     margin-bottom: 36px;
     max-width: 600px;
@@ -199,10 +199,6 @@ header {
     transform: scale(0.97);
 }
 
-.download-btn::before {
-    font-size: 20px;
-}
-
 .comic-text {
     display: flex;
     flex-direction: column;
@@ -220,7 +216,7 @@ header {
     gap: 4px;
 }
 
-.detail-author {
+.details {
     font-size: 20px;
     color: var(--text-secondary);
     margin-bottom: 20px;
@@ -228,11 +224,6 @@ header {
     display: flex;
     align-items: center;
     gap: 6px;
-}
-
-.detail-author::before {
-    font-size: 22px;
-    opacity: 0.8;
 }
 
 .comic-gallery {
