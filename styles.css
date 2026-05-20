@@ -159,11 +159,20 @@ header {
     flex-shrink: 0;
 }
 
+.title-download {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
 .detail-title {
     font-size: 40px;
     font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: 24px;
+    margin-bottom: 0;
     line-height: 1.2;
 }
 
