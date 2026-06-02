@@ -372,6 +372,12 @@ header {
         right: 20px;
         font-size: 48px;
     }    
+
+    .feedback-btn {
+        padding: 6px 16px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
 }
 
 .lightbox {
@@ -410,4 +416,29 @@ header {
 
 .lightbox-close:hover {
     color: #ccc;
+}
+
+.feedback-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--accent-bg);
+    color: white;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: background 0.15s, transform 0.1s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(53, 132, 228, 0.3);
+    white-space: nowrap;
+}
+
+.feedback-btn:hover {
+    background: var(--accent-hover);
+    box-shadow: 0 4px 12px rgba(53, 132, 228, 0.4);
+}
+
+.feedback-btn:active {
+    transform: scale(0.97);
 }
